@@ -1,6 +1,6 @@
 {
   "name": "juice-shop",
-  "version": "14.1.1",
+  "version": "14.2.0",
   "private": true,
   "description": "Probably the most modern and sophisticated insecure web application",
   "keywords": [
@@ -102,8 +102,9 @@
     "all": true,
     "include": [
       "lib/*.ts",
-      "lib/*.js",
-      "routes/*.ts"
+      "models/*.ts",
+      "routes/*.ts",
+      "server.ts"
     ],
     "reporter": [
       "lcov",
@@ -149,6 +150,7 @@
     "i18n": "^0.11.1",
     "is-docker": "^2.1.1",
     "is-heroku": "^2.0.0",
+    "is-gitpod": "^2.0.9",
     "is-windows": "^1.0.2",
     "js-yaml": "^3.14.0",
     "jsonwebtoken": "0.4.0",
